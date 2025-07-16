@@ -52,4 +52,14 @@ A real-time color-sensing robotic system designed to detect object colors using 
    - Place color objects in front of the camera and observe motor responses.
 
 ## 📂 Project Structure
-
+Color-Sensing-Robot/
+│
+├── Embedded_Code/ # C code for P89V51RD2 (Keil project)
+│ └── main.c
+│
+├── MATLAB_Code/ # Scripts for color detection and serial communication
+│ └── color_detection.m
+│
+├── Docs/ # Circuit diagrams, documentation, etc.
+│
+└── README.md
